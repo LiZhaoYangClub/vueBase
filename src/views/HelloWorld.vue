@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg | toFixed(2) }}</h1>
     <h2>Essential Links</h2>
-    <icon-svg icon-class="user"></icon-svg>
+    <icon-svg id="target" icon-class="user"></icon-svg>
     <input type="text" v-focus>
   </div>
 </template>
@@ -20,10 +20,7 @@ export default {
     ...mapState({
       token: state => state.app.token
     })
-  },
-  mounted() {
-    console.log('token:', this.token);
-  },
+  }
 }
 </script>
 
