@@ -14,12 +14,6 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
 ## 全屏插件 screenfull
  `npm install screenfull`
   > use
@@ -58,13 +52,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
   ```
 ## elementUI 主题
   > 主题工具
-  `npm i element-theme`
-  > 安装白垩主题
+  `npm i element-theme` </br>
+  > 安装白垩主题 </br>
   `npm i element-theme-chalk -D`
-  > use :
-    执行 -i 初始化变量文件(element-variables.scss)
+  > use : </br>
+  > 执行 (-i 初始化变量文件(element-variables.scss))
   ``` bash
     node_modules/.bin/et -i 
   ```
-    执行 `node_modules/.bin/et` 生成`theme文件夹`
-    最后在 `main.js` 中引用 `import '../theme/index.css'`
+  > 执行 `node_modules/.bin/et` 生成`theme文件夹`
+  > 最后在 `main.js` 中引用 `import '../theme/index.css'`
