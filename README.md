@@ -56,6 +56,17 @@ npm run build
       suffix: ''         //后缀
     }
   ```
+## SvgIcon 全局组件
+  > src/icons/svg文件夹下的svg将被生成svg雪碧图
+  ``` bash
+  # install dependencies
+  npm i svg-sprite-loader -D 
+  ```
+  > use
+  ``` html
+  <!-- user => svg文件name -->
+  <icon-svg icon-class="user"></icon-svg>
+  ```
 ## elementUI 主题
   ``` bash
   #安装主题工具
