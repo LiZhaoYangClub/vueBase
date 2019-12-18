@@ -15,7 +15,10 @@ npm run dev
 npm run build
 ```
 ## 全屏插件 screenfull
- `npm install screenfull`
+  ``` bash
+  # install dependencies
+  npm install screenfull
+  ```
   > use
   ``` javascript
   const screenfull = require('screenfull');
@@ -35,7 +38,10 @@ npm run build
   ```
 
 ## CountUp 全局组件
-  `npm i countup.js vue-countup-v2`
+  ``` bash
+  # install dependencies
+  npm i countup.js vue-countup-v2
+  ```
   > use
   ``` html
     <count-up :endVal="20000" :delay="1000" :options="options"/>
@@ -51,14 +57,18 @@ npm run build
     }
   ```
 ## elementUI 主题
-  > 主题工具
-  `npm i element-theme` </br>
-  > 安装白垩主题 </br>
-  `npm i element-theme-chalk -D`
-  > use : </br>
-  > 执行 (-i 初始化变量文件(element-variables.scss))
   ``` bash
-    node_modules/.bin/et -i 
+  #安装主题工具
+  npm i element-theme
+  #安装白垩主题
+  npm i element-theme-chalk -D
   ```
-  > 执行 `node_modules/.bin/et` 生成`theme文件夹`
+  > use :
+  ``` bash
+  #执行 (-i 初始化变量文件(element-variables.scss))
+  node_modules/.bin/et -i 
+  #执行 
+  node_modules/.bin/et
+  # 生成`theme文件夹`
+  ```
   > 最后在 `main.js` 中引用 `import '../theme/index.css'`
