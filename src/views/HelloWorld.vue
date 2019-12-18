@@ -6,6 +6,9 @@
     <input type="text" v-focus>
     <count-up :endVal="20000" :delay="1000" :options="options"/>
     <el-button type="primary">测试</el-button>
+    <div class="echart">
+      <echart :option="option"/>
+    </div>
   </div>
 </template>
 
@@ -23,7 +26,8 @@ export default {
         decimal: '.',
         prefix: '',
         suffix: ''
-      }
+      },
+      option:{}
     }
   },
   computed: {
@@ -38,6 +42,10 @@ export default {
 .hello{
   .svg-icon{
     font-size: 20px;
+  }
+  .echart{
+    width: 500px;
+    height: 500px;
   }
 }
 </style>

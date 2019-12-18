@@ -67,6 +67,12 @@ npm run build
   <!-- user => svg文件name -->
   <icon-svg icon-class="user"></icon-svg>
   ```
+## Echarts 全局组件
+  > use
+  ``` html
+  <!-- option:初始化时赋值'{}', 否则会导致watch:$attr.option 监听不到-->
+  <echart :option="option" style="width:300px;height:300px;"/>
+  ```
 ## elementUI 主题
   ``` bash
   #安装主题工具
@@ -83,6 +89,7 @@ npm run build
   # 生成`theme文件夹`
   ```
   > 最后在 `main.js` 中引用 `import '../theme/index.css'`
+
 
 
 

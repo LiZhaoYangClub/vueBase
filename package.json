@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "countup.js": "^2.0.4",
+    "echarts": "^4.5.0",
     "element-theme": "^2.0.1",
     "element-ui": "^2.13.0",
     "screenfull": "^5.0.0",
