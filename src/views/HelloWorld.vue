@@ -8,6 +8,7 @@
     <el-button type="primary">测试</el-button>
     <div class="echart">
       <echart :option="option"/>
+      <upload-img :action="action" :data="data" :headers="headers" style="width:50px;height:50px;"/>
     </div>
   </div>
 </template>
@@ -27,7 +28,14 @@ export default {
         prefix: '',
         suffix: ''
       },
-      option:{}
+      option:{},
+      action:'https://github.com/LiZhaoYangClub/vueBase',
+      data:{
+        name:'aaa'
+      },
+      headers:{
+        Authorization:'cccc'
+      }
     }
   },
   computed: {

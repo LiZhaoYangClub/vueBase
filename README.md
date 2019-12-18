@@ -73,6 +73,15 @@ npm run build
   <!-- option:初始化时赋值'{}', 否则会导致watch:$attr.option 监听不到-->
   <echart :option="option" style="width:300px;height:300px;"/>
   ```
+
+## uploadImg 图像上传全局组件
+ > use
+ ``` html
+  <!-- action:上传地址 data: 请求参数 headers: 设置请求头 -->
+  <upload-img :action="action" :data="data" :headers="headers" style="width:50px;height:50px;"/>
+  <!-- 上传成功后，显示上传图片 支持：JPG、ICO、PNG -->
+  <!-- 只支持单个上传 -->
+ ```
 ## elementUI 主题
   ``` bash
   #安装主题工具
