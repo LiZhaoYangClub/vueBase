@@ -63,7 +63,7 @@ npm run build
   #安装白垩主题
   npm i element-theme-chalk -D
   ```
-  > use :
+  > use
   ``` bash
   #执行 (-i 初始化变量文件(element-variables.scss))
   node_modules/.bin/et -i 
