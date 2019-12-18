@@ -13,19 +13,19 @@ npm run dev
 
 # build for production with minification
 npm run build
-
+```
 ## 全屏插件 screenfull
  `npm install screenfull`
   > use
   ``` javascript
   const screenfull = require('screenfull');
-  # 页面全屏 
+  // 页面全屏 
   function emitFun() {
     if (screenfull.isEnabled) {
       screenfull.request();
     };
   }
-  # 元素全屏
+  // 元素全屏
   function emitFun() {
     const element = document.getElementById('target');
     if (screenfull.isEnabled) {
