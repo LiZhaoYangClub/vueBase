@@ -34,10 +34,10 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="scss" scoped>
 .hello{
   .svg-icon{
-    font-size 20px;
+    font-size: 20px;
   }
 }
 </style>

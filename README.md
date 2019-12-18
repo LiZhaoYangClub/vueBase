@@ -72,3 +72,10 @@ npm run build
   # 生成`theme文件夹`
   ```
   > 最后在 `main.js` 中引用 `import '../theme/index.css'`
+
+
+
+
+  # 常见问题
+  ## 运行scss文件报（this.getResolve is not a function）
+  > sass-loader 版本不匹配 推荐=> 7.3.1
